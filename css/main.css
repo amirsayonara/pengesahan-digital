@@ -1,0 +1,22 @@
+.container {
+    max-width: 60em;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+@media print {
+    .navbar, .jangan-print {
+        display: none;
+    }
+    html {
+        transform: scale(1.0);
+    }
+}
+@font-face {
+    font-family: 'Code39r';
+    src: url('../font/Code39r.ttf');
+}
+.break {
+    page-break-before: always;
+}
